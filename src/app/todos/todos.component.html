@@ -1,0 +1,10 @@
+<h1>{{error}}</h1>
+<div *ngFor="let todo of todos">
+    <h1> {{ todo.title }} </h1>
+    <input type="checkbox" [checked]="todo.checked">
+    <!-- <ul>
+        <li> {{ todo.created_at }}</li>
+        <li> {{ todo.title }}</li>
+        <li> {{ todo.author }}</li>
+    </ul> -->
+</div>
